@@ -13,6 +13,5 @@ public record DadosSerie(
         @JsonAlias("totalSeasons") Integer totalTemporadas,
 
         // Associa a propriedade "imdbRating" do JSON ao campo "avaliacao"
-        @JsonAlias("imdbRating") String avaliacao
-) {
+        @JsonAlias("imdbRating") String avaliacao) {
 }
